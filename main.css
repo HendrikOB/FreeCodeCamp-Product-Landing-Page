@@ -1,0 +1,197 @@
+body{
+	background-color: #eee;
+}
+
+#page{
+	position: relative;
+}
+
+.flex-cont {
+	display: flex;
+	justify-content: center;
+}
+
+.logo{
+	margin-left: 0px;
+	padding-left: 20px;
+}
+
+
+#header{
+	position: fixed;
+	top: 0;
+	padding-top: 20px;
+	background-color: #eee;
+}
+
+#header-img{
+	width: 300px;
+	padding-right: 40vw;
+}
+
+#nav-bar ul li {
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+#nav-bar ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+#nav-bar ul {
+	width: 25vw;
+}
+
+.nav-link {
+	list-style-type: none;
+}
+
+#hero{
+	padding-top: 70px; 
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+form{
+	display: block;
+}
+
+#hero input[type="email"] {
+	max-width: 275px;
+	width: 100%;
+	padding: 5px;
+}
+
+#hero input[type="submit"] {
+	max-width: 150px;
+	background-color: #f1c40f;
+	border: 0;
+	height: 30px;
+	width: 100%;
+	margin: 15px 0;
+	text-transform: uppercase;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#features{
+	margin: 30px auto;
+}
+
+#features #icon{
+	height: 125px;
+	width: 10vw;
+	color: darkorange;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.grid-content{
+	display: flex;
+	align-content: center;
+}
+
+#description h2{
+	margin: 40px 0 0 0;
+}
+#description p{
+	margin-top: 0;
+}
+
+#how-it-works{
+	margin-top: 30px;
+}
+
+#pricing{
+	width: 80vw;
+	margin-top: 50px;
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#pricing #tenor, #pricing #bass, #pricing #valve{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	border: 1px solid #000;
+	width: calc(100% / 3);
+	margin: 10px;
+}
+
+#pricing div div{
+	width: 100%;
+	background-color: #ddd;
+	text-transform: uppercase;
+	padding: 15px 0;
+}
+
+
+#pricing div ol {
+	padding-left: 0;
+}
+
+#pricing div ol li {
+	padding: 5px 0;
+	list-style: none;
+
+}
+
+#pricing div button{
+	background-color: #F1C40F;
+	border: 0;
+	margin: 15px 0;
+}
+
+.button{
+	height: 40px;
+	padding: 0 20px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+footer{
+	width: 80vw;
+	background-color: #ddd;
+	padding: 15px;
+}
+
+footer ul {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 0;
+}
+
+footer ul li {
+	list-style: none;
+	padding: 0 10px;
+}
+
+footer ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+footer span{
+	display: flex;
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width: 1000px) {
+	#description{
+		width: 60vw;
+		padding-left: 10vw;
+	}
+}
