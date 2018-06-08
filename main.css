@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 body{
-	background-color: #eee;
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
 }
 
 #page{
@@ -20,13 +24,19 @@ body{
 #header{
 	position: fixed;
 	top: 0;
+	right: 0;
+	left: 0;
 	padding-top: 20px;
-	background-color: #eee;
+	background-color: white;
 }
 
 #header-img{
 	width: 300px;
 	padding-right: 40vw;
+}
+
+.nav{
+	margin-top: -15px;
 }
 
 #nav-bar ul li {
@@ -40,7 +50,7 @@ body{
 }
 
 #nav-bar ul {
-	width: 25vw;
+	width: 28vw;
 }
 
 .nav-link {
@@ -133,7 +143,7 @@ form{
 
 #pricing div div{
 	width: 100%;
-	background-color: #ddd;
+	background-color: rgb(79, 233, 238);
 	text-transform: uppercase;
 	padding: 15px 0;
 }
@@ -163,9 +173,11 @@ form{
 }
 
 footer{
-	width: 80vw;
-	background-color: #ddd;
+	width: 100%;
+	background-color: black;
 	padding: 15px;
+	color: white;
+	padding-right: 80px; 
 }
 
 footer ul {
@@ -181,7 +193,7 @@ footer ul li {
 
 footer ul li a{
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 
 footer span{
